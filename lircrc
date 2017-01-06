@@ -1,0 +1,12 @@
+begin
+    remote = testremote
+    button = key_power
+    prog   = home-assistant
+    config = key_power
+end
+begin
+    remote = testremote
+    button = key_playpause
+    prog   = home-assistant
+    config = key_playpause
+end
