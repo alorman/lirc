@@ -149,3 +149,75 @@ begin
     prog   = home-assistant
     config = masscool_input_3
 end
+begin
+    remote = monitor_light
+    button = key_0
+    prog   = home-assistant
+    config = monitor_light_red
+end
+begin
+    remote = monitor_light
+    button = key_1
+    prog   = home-assistant
+    config = monitor_light_green
+end
+begin
+    remote = monitor_light
+    button = key_2
+    prog   = home-assistant
+    config = monitor_light_blue
+end
+begin
+    remote = monitor_light
+    button = key_3
+    prog   = home-assistant
+    config = monitor_light_white
+end
+begin
+    remote = monitor_light
+    button = key_4
+    prog   = home-assistant
+    config = monitor_light_orange
+end
+begin
+    remote = monitor_light
+    button = key_5
+    prog   = home-assistant
+    config = monitor_light_yellow
+end
+begin
+    remote = monitor_light
+    button = key_6
+    prog   = home-assistant
+    config = monitor_light_cyan
+end
+begin
+    remote = monitor_light
+    button = key_7
+    prog   = home-assistant
+    config = monitor_light_purple
+end
+begin
+    remote = monitor_light
+    button = key_power
+    prog   = home-assistant
+    config = monitor_light_on
+end
+begin
+    remote = monitor_light
+    button = key_mute
+    prog   = home-assistant
+    config = monitor_light_off
+end
+begin
+    remote = monitor_light
+    button = key_volumeup
+    prog   = home-assistant
+    config = monitor_light_brighter
+end
+begin
+    remote = monitor_light
+    button = key_volumedown
+    prog   = home-assistant
+    config = monitor_light_dimmer
+end
