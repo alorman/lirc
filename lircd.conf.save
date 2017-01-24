@@ -60,7 +60,7 @@ begin remote
   toggle_bit_mask 0x0
 
       begin codes
-          key_enter                0x3A 0xA0
+          key_enter                0x3A 0xA
           key_down                 0x30
           key_up                   0x50
           key_left                 0x90
@@ -277,53 +277,3 @@ begin remote
       end codes
 
 end remote
-
-#remote for monitor surround lights
-#key-0 = red
-#key-1 = green
-#key-2 = blue
-#key-3 = white
-#key-4 = orange
-#key-5 = yellow
-#key-6 = cyan
-#key-7 = purple
-#key_power = on
-#key_mute = off
-#key_volumeup = brighter
-#key_volumedown = dimmer
-
-begin remote
-
-  name  monitor_light
-  bits           16
-  flags SPACE_ENC|CONST_LENGTH
-  eps            30
-  aeps          100
-
-  header       9166  4477
-  one           609  1644
-  zero          609   532
-  ptrail        605
-  repeat       9167  2208
-  pre_data_bits   16
-  pre_data       0xF7
-  gap          108689
-  toggle_bit_mask 0x0
-
-      begin codes
-          key_0                    0x00FF
-          key_1                    0xA05F
-          key_2                    0x609F
-          key_3                    0xE01F
-          key_4                    0x10EF
-          key_5                    0x906F
-          key_6                    0x50AF
-          key_7                    0xD02F
-          key_power                0x40BF
-          key_volumeup             0x00FF
-          key_volumedown           0x807F
-          key_mute                 0xC03F
-      end codes
-
-end remote
-

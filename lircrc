@@ -1,4 +1,4 @@
-##begin
+#begin
 #    remote = testremote
 #    button = key_power
 #    prog   = home-assistant
@@ -10,7 +10,6 @@
 #    prog   = home-assistant
 #    config = key_playpause
 #end
-
 begin
     remote = lg_tv_remote
     button = key_power
